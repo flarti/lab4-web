@@ -1,0 +1,14 @@
+:root { --bg: #f3f5fa; --card: #fff; --text: #1d2433; --accent: #2f5bea; }
+body.dark { --bg: #121722; --card: #1c2333; --text: #e8ecf5; --accent: #7d9bff; }
+body { margin: 0; font-family: system-ui, sans-serif; background: var(--bg); color: var(--text); }
+header { display: flex; justify-content: space-between; align-items: center; max-width: 560px; margin: 0 auto; padding: 1rem; }
+h1 { font-size: 1.3rem; margin: 0; }
+main { max-width: 560px; margin: 0 auto; padding: 0 1rem 2rem; }
+section { background: var(--card); padding: 1rem 1.25rem; border-radius: 10px; margin-bottom: 1rem; }
+label { display: block; margin-bottom: .75rem; }
+input, textarea { display: block; width: 100%; box-sizing: border-box; margin-top: .25rem; padding: .55rem; font: inherit; }
+button { background: var(--accent); color: #fff; border: 0; border-radius: 6px; padding: .55rem 1rem; cursor: pointer; font: inherit; }
+#message { min-height: 1.5rem; }
+.error { color: #c62828; }
+.ok { color: #2e7d32; }
+ul { padding-left: 1.2rem; }
